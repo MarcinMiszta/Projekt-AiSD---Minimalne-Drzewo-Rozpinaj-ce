@@ -1,0 +1,1 @@
+# Projekt AiSD - Minimalne Drzewo Rozpinające
