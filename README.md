@@ -7,7 +7,7 @@ Aby nadać praktycznego zastosowania dla algorytmu, aplikacja pomaga wyznaczyć 
 
 ## Funkcjonalności aplikacji
 1. **Predefiniowane rodzaje upraw:**
-   - Aplikacja zawiera kilka predefiniowanych rodzajów upraw (np. Marchew, Pomidory, Ziemniaki), które można wykorzystać do testowania programu.
+   - Aplikacja zawiera kilka predefiniowanych rodzajów upraw (np. Marchew, Pomidory, Cebula), które można wykorzystać do testowania programu.
 
 2. **Dodawanie i usuwanie upraw:**
    - Użytkownik może dynamicznie dodawać nowe uprawy lub usuwać istniejące.
