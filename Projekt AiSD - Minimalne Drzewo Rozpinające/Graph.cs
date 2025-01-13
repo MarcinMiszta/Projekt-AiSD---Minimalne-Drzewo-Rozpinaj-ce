@@ -93,7 +93,7 @@ namespace Projekt_AiSD___Minimalne_Drzewo_Rozpinające
                 uniqueNodes.Add(edge.end);
             }
             string działkiString = string.Join(", ", uniqueNodes.Select(n => n.data).Distinct());
-            return $"Do podlewania działek z {działkiString} potrzeba {totalDistance} metrów węża.";
+            return $"Do podlewania działek:  {działkiString} potrzeba {totalDistance} metrów węża.";
         }
 
         public string WriteMDR()

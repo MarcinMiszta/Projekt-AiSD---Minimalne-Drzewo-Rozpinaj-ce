@@ -49,6 +49,7 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             panel4 = new Panel();
+            label6 = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
@@ -259,12 +260,23 @@
             // 
             // panel4
             // 
+            panel4.Controls.Add(label6);
             panel4.Controls.Add(textBox2);
             panel4.Controls.Add(textBox1);
             panel4.Location = new Point(755, 128);
             panel4.Name = "panel4";
             panel4.Size = new Size(588, 461);
             panel4.TabIndex = 7;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.Location = new Point(25, 28);
+            label6.Name = "label6";
+            label6.Size = new Size(79, 25);
+            label6.TabIndex = 6;
+            label6.Text = "Wynik:";
             // 
             // Form1
             // 
@@ -312,5 +324,6 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private Panel panel4;
+        private Label label6;
     }
 }

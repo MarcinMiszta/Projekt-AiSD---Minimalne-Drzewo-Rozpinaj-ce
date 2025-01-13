@@ -21,8 +21,8 @@ namespace Projekt_AiSD___Minimalne_Drzewo_Rozpinające
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            lista.Add("Marchewka");
-            lista.Add("Ogórki");
+            lista.Add("Marchew");
+            lista.Add("Pomidory");
             lista.Add("Cebula");
             lista.Add("Groch");
             lista.Add("Pietruszka");
